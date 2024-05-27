@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Богдан Федотов](https://up.htmlacademy.ru/htmlcss/40/user/2217035).
-* Наставник: `Неизвестно`.
+- Студент: [Богдан Федотов](https://up.htmlacademy.ru/htmlcss/40/user/2217035).
+- Наставник: [Валера Хаслер](https://htmlacademy.ru/profile/id224163).
 
 ---
 
