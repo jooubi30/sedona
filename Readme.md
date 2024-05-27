@@ -2,6 +2,7 @@
 
 - Студент: [Богдан Федотов](https://up.htmlacademy.ru/htmlcss/40/user/2217035).
 - Наставник: [Валера Хаслер](https://htmlacademy.ru/profile/id224163).
+- Проект: [Мой проект Седона] (https://jooubi30.github.io/sedona/).
 
 ---
 
