@@ -21,8 +21,90 @@ body {
   background-color: #ffffff;
   color: #333333;
   margin: 0;
+  background-color: peru;
 }
 
 a {
   text-decoration: none;
+  color: #000000;
+}
+
+.navigation-list, .advantages-list, .service-list, .social-list, .breadcrumbs, .catalog-filter-list, .hotel-list, .pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-list {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.nav-button-link {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.advantages-description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-other {
+  color: #FFFFFF;
+}
+
+.service-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.service-item-description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.background-hero {
+  background-color: aquamarine;
+  background-image: url(../images/index-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
