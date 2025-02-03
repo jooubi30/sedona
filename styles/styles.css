@@ -24,12 +24,23 @@ body {
   background-color: peru;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 a {
   text-decoration: none;
   color: #000000;
 }
 
-.navigation-list, .advantages-list, .service-list, .social-list, .breadcrumbs, .catalog-filter-list, .hotel-list, .pagination {
+.navigation-list,
+.advantages-list,
+.service-list,
+.social-list,
+.breadcrumbs,
+.catalog-filter-list,
+.hotel-list,
+.pagination {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -46,7 +57,7 @@ a {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -71,7 +82,12 @@ h2 {
 }
 
 .advantages-other {
-  color: #FFFFFF;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-other h3 {
+  color: #ffffff;
 }
 
 .service-item-title {
@@ -91,7 +107,7 @@ button {
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -107,4 +123,23 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.nav-button-link {
+  background-color: #756157;
+  padding: 8px 50px;
+  border-radius: 4px;
+}
+
+.welcome {
+  display: block;
+  margin: 0 auto;
+}
+
+.divider {
+  min-width: 100%;
+}
+
+.service-item-color {
+  background-color: rgba(131, 179, 211, 0.12);
 }
