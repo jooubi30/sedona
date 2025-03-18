@@ -79,6 +79,8 @@ a {
 
 .logo {
   margin-left: 70px;
+  position: absolute;
+  z-index: 1;
 }
 
 .navigation {
@@ -110,8 +112,9 @@ a {
 }
 
 .navigation-user .navigation-link {
-  min-width: 44px;
-  min-height: 64px;
+  min-width: 20px;
+  min-height: 20px;
+  padding: 22px 12px;
 }
 
 .nav-button-link {
@@ -120,6 +123,10 @@ a {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+  display: block;
+  background-color: #756157;
+  padding: 8px 34px;
+  border-radius: 4px;
 }
 
 h2 {
@@ -128,6 +135,10 @@ h2 {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+}
+
+.advantages {
+  margin-bottom: 64px;
 }
 
 .advantages-list {
@@ -179,14 +190,37 @@ h2 {
   color: #ffffff;
 }
 
+.service {
+  margin-bottom: 96px;
+}
+
+.service-text-countainer {
+  text-align: center;
+  margin: 64px auto;
+  max-width: 505px;
+}
+
+.service-title {
+  margin-bottom: 20px;
+}
+
 .service-list {
   list-style-type: none;
   display: flex;
 }
 
 .service-item {
-  width: 400px;
-  height: 385px;
+  width: 230px;
+  height: 223px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 81px 85px;
+}
+
+.service-item-color {
+  background: rgba(131, 179, 211, 0.12);
 }
 
 .service-item-title {
@@ -195,17 +229,30 @@ h2 {
   font-weight: 700px;
   text-transform: uppercase;
   color: #000000;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .service-item-description {
   font-size: 18px;
   line-height: 21px;
+  max-width: 230px;
+  display: inline-block;
+  text-align: center;
 }
 
 .booking {
   text-align: center;
-  margin: 96px auto;
   max-width: 592px;
+  margin: 0 auto 96px;
+}
+
+.booking-title {
+  margin-bottom: 20px;
+}
+
+.booking-description {
+  margin-bottom: 54px;
 }
 
 button {
@@ -214,6 +261,7 @@ button {
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
+  border: none;
 }
 
 .contacts-phone {
@@ -233,20 +281,20 @@ button {
 
 .hero-text-countainer {
   text-align: center;
-  margin: 69px auto;
-  max-width: 505px;
+  margin: 69px auto 90px;
+  max-width: 651px;
 }
 
-.nav-button-link {
-  background-color: #756157;
-  padding: 8px 50px;
-  border-radius: 4px;
+.hero-title {
+  margin-bottom: 25px;
 }
+
 
 .welcome {
   display: block;
   margin: 0 auto;
   padding: 51px 371px 82px;
+
 }
 
 .divider {
@@ -297,19 +345,23 @@ button {
   line-height: 26px;
   color: #ffffff;
   text-align: center;
-  margin-top: 0;
   margin-bottom: 54px;
 }
 
 input {
-  align-items: center;
   padding: 12px 20px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  flex-grow: 1;
 }
 
 .button-subscribe {
   padding: 8px 50px;
   background-color: #82B3D3;
-  border: 0;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .sub-countainer {
@@ -320,11 +372,10 @@ input {
 
 .subscription-form {
   display: flex;
-  justify-content: center;
 }
 
 .page-footer-countainer {
-  display: felx;
+  display: flex;
   width: 1060px;
   margin: 40px auto 30px;
 }
@@ -334,6 +385,8 @@ input {
   display: flex;
   width: 142px;
   margin-right: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-item {
@@ -369,8 +422,6 @@ input {
 .breadcrumbs {
   list-style-type: none;
   display: flex;
-  margin-left: 70px;
-  margin-top: 8px;
   margin-bottom: 40px;
 }
 
